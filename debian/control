@@ -1,0 +1,12 @@
+Source: glclib
+Maintainer: Alon Levy <alon.levy@bladeranger.com>
+Section: misc
+Priority: optional
+Standards-Version: 2.3.0
+Build-Depends: debhelper (>= 9)
+
+Package: glclib
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: GLC Library
+ Library at core of GLC player
