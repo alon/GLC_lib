@@ -1,0 +1,4 @@
+#!/usr/bin/make -f
+%:
+#	sed -i -e 's|usr/local|usr|' install.pri
+	dh $@
