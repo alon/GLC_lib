@@ -1,7 +1,7 @@
 Description: usr-local removal
  remove usr local, install to usr like dh_source expects
  .
- glclib (2.3.0-1) UNRELEASED; urgency=medium
+ glclib (3.0.0-1) UNRELEASED; urgency=medium
  .
    * Initial release.
 Author: Alon Levy <alon.levy@bladeranger.com>

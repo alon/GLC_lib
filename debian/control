@@ -2,7 +2,7 @@ Source: glclib
 Maintainer: Alon Levy <alon.levy@bladeranger.com>
 Section: misc
 Priority: optional
-Standards-Version: 2.3.0
+Standards-Version: 3.9.7
 Build-Depends: debhelper (>= 9)
 
 Package: glclib
