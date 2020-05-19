@@ -3,6 +3,8 @@ TARGET = GLC_ViewerItem
 QT += qml quick opengl
 CONFIG += qt plugin
 
+QMAKE_CXXFLAGS += -std=c++11
+
 TARGET = $$qtLibraryTarget($$TARGET)
 uri = glclib
 

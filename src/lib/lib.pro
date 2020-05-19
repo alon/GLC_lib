@@ -6,6 +6,7 @@ win32 {
     LIBS += -lopengl32
 }
 
+QMAKE_CXXFLAGS += -std=c++11
 
 CONFIG += exceptions warn_on
 

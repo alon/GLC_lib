@@ -1,6 +1,8 @@
 # Linux and macx install configuration
 GLC_LIB_NAME = GLC_lib-3.0
 
+QMAKE_CXXFLAGS += -std=c++11
+
 unix {
     # Location of HEADERS and library
     GLC_LIB_DIR = $$(HOME)/$${GLC_LIB_NAME}

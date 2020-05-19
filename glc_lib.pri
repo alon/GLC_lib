@@ -13,3 +13,6 @@ unix:!macx {
      LIBS += -L"../../lib" -l:libGLC_lib.so.3
      INCLUDEPATH += "../../lib/"
 }
+
+QMAKE_CXXFLAGS += -std=c++11
+

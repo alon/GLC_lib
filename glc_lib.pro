@@ -12,6 +12,8 @@ contains(QT_CONFIG, opengles2) {
     error(GLC_lib does not support OpenGL ES 2!)
 }
 
+QMAKE_CXXFLAGS += -std=c++11
+
 SUBDIRS += src/lib \
            src/plugins \
            src/examples
