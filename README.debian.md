@@ -7,3 +7,10 @@ sudo apt install libc6 libexpat1 libgcc1 libgl1-mesa-glx libglapi-mesa libglib2.
     libxau6 libxcb1 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-present0 \
     libxcb-sync1 libxdamage1 libxdmcp6 libxext6 libxfixes3 libxshmfence1 \
     libxxf86vm1 qt511base qt511declarative zlib1g
+
+```
+git clean -fdx
+export QT_SELECT=5
+qmake
+dpkg-buildpackage
+```
