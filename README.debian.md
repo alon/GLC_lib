@@ -10,6 +10,7 @@ sudo apt install libc6 libexpat1 libgcc1 libgl1-mesa-glx libglapi-mesa libglib2.
 
 ```
 git clean -fdx
+git archive HEAD -o ../glclib_3.0.0.orig.tar.gz
 export QT_SELECT=5
 qmake
 dpkg-buildpackage
